@@ -415,12 +415,12 @@ li {
     &-list {
       display: flex;
 
-      a {
-        li {
+      li {
+        a {
           opacity: 0.8;
         }
 
-        &:not(:last-child) li {
+        &:not(:last-child) {
           margin-right: 2.5rem;
         }
       }

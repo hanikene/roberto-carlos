@@ -463,11 +463,11 @@ li {
   display: flex;
 }
 
-.footer_social-list a li {
+.footer_social-list li a {
   opacity: 0.8;
 }
 
-.footer_social-list a:not(:last-child) li {
+.footer_social-list li:not(:last-child) {
   margin-right: 2.5rem;
 }
 
